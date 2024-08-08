@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istigfar 1000 Kali</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f0f0f0;
+        }
+        .istigfar {
+            font-size: 24px;
+            line-height: 1.5;
+            margin: 0 auto;
+            width: 80%;
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Istigfar 1000 Kali</h1>
+    <div class="istigfar" id="istigfar-container"></div>
+
+    <script>
+        const container = document.getElementById("istigfar-container");
+        let text = "";
+        for (let i = 0; i < 1000; i++) {
+            text += "Astaghfirullah\n";
+        }
+        container.textContent = text;
+    </script>
+</body>
+</html>
